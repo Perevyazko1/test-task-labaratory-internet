@@ -1,0 +1,50 @@
+.Reviews {
+
+}
+
+.sliderContainer {
+    //max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.reviewCard {
+    width: 341px;
+    height: 316px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviewHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatarPlaceholder {
+    width: 50px;
+    height: 50px;
+    background: #ddd;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
