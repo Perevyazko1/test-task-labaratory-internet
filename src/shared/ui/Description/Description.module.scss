@@ -1,0 +1,36 @@
+
+.gridSection {
+    //display: grid;
+    //grid-template-columns: repeat(2, 1fr);
+    //gap: 20px;
+    padding: 2rem;
+    //background-color: #f9f9f9;
+    //box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(246, 248, 250, 1);
+
+
+}
+
+.gridContainer {
+    width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gridItem {
+    padding: 0.5rem;
+    max-width: 592px;
+}
+
+.gridItem h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.gridItem p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}

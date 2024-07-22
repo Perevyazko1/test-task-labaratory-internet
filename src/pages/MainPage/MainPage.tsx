@@ -4,6 +4,7 @@ import {Stages} from "../../shared/ui/Stages/Stages";
 import {ThirthBlock} from "../../shared/ui/ThirthBlock/ThirthBlock";
 import {Reviews} from "../../shared/ui/Reviews/Reviews";
 import {Questions} from "../../shared/ui/Questions/Questions";
+import {Description} from "../../shared/ui/Description/Description";
 
 interface MainPageProps {
     className?: string
@@ -28,6 +29,7 @@ export const MainPage = memo((props: MainPageProps) => {
             <ThirthBlock/>
             <Reviews/>
             <Questions/>
+            <Description/>
         </div>
     );
 });
