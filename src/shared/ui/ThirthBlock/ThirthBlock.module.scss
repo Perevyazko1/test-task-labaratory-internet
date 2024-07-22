@@ -1,0 +1,49 @@
+.ThirthBlock {
+
+}
+
+/* src/components/ThirdBlock.css */
+
+.thirdBlock {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 1216px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.textSection {
+    flex: 1;
+    padding: 1rem;
+}
+
+.textSection h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textSection p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.imageSection {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menImage {
+    width: 592px;
+    height: 448px;
+    position: absolute;
+}
+.trackImage {
+    width: 592px;
+    height: 448px;
+}
