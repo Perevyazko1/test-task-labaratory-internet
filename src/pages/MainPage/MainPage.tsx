@@ -36,7 +36,7 @@ export const MainPage = memo((props: MainPageProps) => {
             {/*<section id="third-block">*/}
             {/*    <ThirthBlock/>*/}
             {/*</section>*/}
-            {/*<Reviews/>*/}
+            <Reviews/>
             <section id="faq">
                 <Questions/>
             </section>
