@@ -7,6 +7,8 @@ import {Questions} from "../../shared/ui/Questions/Questions";
 import {Description} from "../../shared/ui/Description/Description";
 import {Form} from "../../features/Form/Form";
 import {Navbar} from "../../shared/ui/NavBar/Navbar";
+import {WrapperPage} from "../../shared/ui/WrapperPage/WrapperPage";
+
 
 interface MainPageProps {
     className?: string
@@ -23,25 +25,25 @@ export const MainPage = memo((props: MainPageProps) => {
 
 
     return (
-        <div
+        <WrapperPage
             {...otherProps}
         >
-            <Navbar/>
-            <Header/>
-            <section id="how-it-works">
-                <Stages/>
-            </section>
-            <section id="third-block">
-                <ThirthBlock/>
-            </section>
-            <Reviews/>
-            <section id="faq">
-                <Questions/>
-            </section>
-            <Description/>
+            {/*<Navbar/>*/}
+            {/*<Header/>*/}
+            {/*<section id="how-it-works">*/}
+            {/*    <Stages/>*/}
+            {/*</section>*/}
+            {/*<section id="third-block">*/}
+            {/*    <ThirthBlock/>*/}
+            {/*</section>*/}
+            {/*<Reviews/>*/}
+            {/*<section id="faq">*/}
+            {/*    <Questions/>*/}
+            {/*</section>*/}
+            {/*<Description/>*/}
             <section id="form">
                 <Form/>
             </section>
-        </div>
+        </WrapperPage>
     );
 });

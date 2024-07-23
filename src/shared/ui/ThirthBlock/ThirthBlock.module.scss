@@ -44,7 +44,26 @@
     position: absolute;
 }
 
-.trackImage {
+.truckImage {
     width: 592px;
     height: 448px;
+}
+
+@media screen and (max-width: 768px) {
+    .thirdBlock {
+        width: 727px;
+        box-sizing: border-box;
+    }
+    .menImage {
+        width: 351px;
+        height: 265px;
+        position: absolute;
+    }
+
+    .truckImage {
+        width: 351px;
+        height: 265px;
+    }
+
+
 }

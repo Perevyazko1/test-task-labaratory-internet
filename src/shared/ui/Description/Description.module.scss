@@ -1,5 +1,5 @@
 
-.gridSection {
+.section {
     margin-bottom: 30px;
     padding: 2rem;
     background-color: rgba(246, 248, 250, 1);
@@ -7,7 +7,7 @@
 
 }
 
-.gridContainer {
+.container {
     width: 1216px;
     margin: 0 auto;
     display: flex;
@@ -15,20 +15,30 @@
 
 }
 
-.gridItem {
+.item {
     padding: 0.5rem;
     max-width: 592px;
 }
 
-.gridItem h3 {
+.item h3 {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.gridItem p {
+.item p {
     font-size: 1rem;
     margin-bottom: 1rem;
     font-family: "Graphik Light", serif;
     color: rgba(94, 100, 106, 1);
 
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
+
+
+}
+

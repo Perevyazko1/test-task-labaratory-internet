@@ -38,3 +38,22 @@
     color: rgba(94, 100, 106, 1);
 
 }
+
+@media screen and (max-width: 768px) {
+    .howItWorks {
+        width: 768px;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .steps {
+        width: 768px;
+        justify-content: space-evenly;
+    }
+    .step {
+        width: 342px;
+        max-width: 342px;
+
+    }
+
+}
+

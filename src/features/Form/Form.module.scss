@@ -84,3 +84,56 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .formContainer {
+        width: 728px;
+    }
+    footer {
+        width: 768px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 24px;
+    }
+    .formContainer {
+        width: 343px;
+    }
+    footer {
+        width: 375px;
+    }
+    .formGroup {
+        flex-wrap: wrap;
+
+        input[type="text"] {
+            margin-top: 10px;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    h2 {
+        font-size: 24px;
+    }
+    .formContainer {
+        width: 288px;
+    }
+    footer {
+        width: 320px;
+    }
+    .formGroup {
+        flex-wrap: wrap;
+
+        input[type="text"] {
+            margin-top: 10px;
+        }
+    }
+
+
+}

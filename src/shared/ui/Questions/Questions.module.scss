@@ -43,12 +43,19 @@ h2 {
     margin-top: 10px;
     font-size: 18px;
     font-family: "Graphik Light", serif;
-    color: rgba(94, 100, 106, 1);
-;
+    color: rgba(94, 100, 106, 1);;
 
 }
 
 .faqToggle {
     font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .faqContainer {
+        max-width: 727px;
+    }
+
+
 }
 

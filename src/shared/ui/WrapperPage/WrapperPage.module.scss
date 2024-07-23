@@ -1,0 +1,20 @@
+.WrapperPage {
+    width: 1920px;
+}
+
+@media screen and (max-width: 768px) {
+    .WrapperPage {
+        width: 768px;
+    }
+
+}@media screen and (max-width: 375px) {
+    .WrapperPage {
+        width: 375px;
+    }
+
+}@media screen and (max-width: 320px) {
+    .WrapperPage {
+        width: 320px;
+    }
+
+}

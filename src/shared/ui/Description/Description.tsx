@@ -31,12 +31,12 @@ export const Description = (props: DescriptionProps) => {
     );
 
     return (
-        <div className={cls.gridSection}>
-            <div className={cls.gridContainer}>
-                <div className={cls.gridItem}>{content}</div>
-                <div className={cls.gridItem}>{content}</div>
-                <div className={cls.gridItem}>{content}</div>
-                <div className={cls.gridItem}>{content}</div>
+        <div className={cls.section}>
+            <div className={cls.container}>
+                <div className={cls.item}>{content}</div>
+                <div className={cls.item}>{content}</div>
+                <div className={cls.item}>{content}</div>
+                <div className={cls.item}>{content}</div>
             </div>
         </div>
     );

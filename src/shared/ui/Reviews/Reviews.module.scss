@@ -77,3 +77,20 @@
         margin-right: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .sliderContainer {
+        width: 768px;
+        height: 540px;
+    }
+    .slider {
+        width: 768px;
+        height: 462px;
+    }
+    .reviewCard {
+        box-sizing: border-box;
+    }
+        .slickPrev, .slickNext {
+            display: none;
+        }
+}
