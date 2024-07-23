@@ -90,11 +90,16 @@
     .reviewCard {
         box-sizing: border-box;
     }
-        .slickPrev, .slickNext {
-            display: none;
-        }
+    .slickPrev, .slickNext {
+        display: none;
+    }
 }
-@media screen and (max-width: 599px)and (min-width: 319px) {
+
+@media screen and (max-width: 599px) and (min-width: 319px) {
+    .header {
+        font-size: 20px;
+    }
+
     .sliderContainer {
         width: auto;
         height: 540px;
@@ -106,11 +111,16 @@
     .reviewCard {
         box-sizing: border-box;
     }
-        .slickPrev, .slickNext {
-            display: none;
-        }
+    .slickPrev, .slickNext {
+        display: none;
+    }
 }
+
 @media screen and (max-width: 320px) {
+    .header {
+        font-size: 20px;
+    }
+
     .sliderContainer {
         width: auto;
         height: 499px;
@@ -122,9 +132,9 @@
     .reviewCard {
         box-sizing: border-box;
     }
-        .slickPrev, .slickNext {
-            display: none;
-        }
+    .slickPrev, .slickNext {
+        display: none;
+    }
     .reviewCard {
         width: auto !important;
         height: auto;

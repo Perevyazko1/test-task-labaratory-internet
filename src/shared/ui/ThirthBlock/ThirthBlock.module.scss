@@ -12,12 +12,10 @@
 }
 
 .textSection {
-    flex: 1;
     padding: 1rem;
 }
 
 .textSection h2 {
-    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -59,11 +57,64 @@
         height: 265px;
         position: absolute;
     }
-
     .truckImage {
         width: 351px;
         height: 265px;
     }
+}
 
+@media screen and (max-width: 375px) {
+    .textSection h2 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .thirdBlock {
+        width: 342px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse
+    }
+    .menImage {
+        width: 342px;
+        height: 258px;
+        position: absolute;
+    }
+    .truckImage {
+        width: 342px;
+        height: 258px;
+    }
+    .textSection {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .textSection h2 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .thirdBlock {
+        width: 288px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse
+    }
+    .menImage {
+        width: 288px;
+        height: 217px;
+        position: absolute;
+    }
+    .truckImage {
+        width: 288px;
+        height: 217px;
+    }
+    .textSection {
+        padding: 0;
+    }
 
 }
