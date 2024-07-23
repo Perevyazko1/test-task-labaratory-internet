@@ -55,7 +55,15 @@ h2 {
     .faqContainer {
         max-width: 727px;
     }
-
-
+}
+@media screen and (max-width: 375px) {
+    .faqContainer {
+        max-width: 343px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .faqContainer {
+        max-width: 288px;
+    }
 }
 
