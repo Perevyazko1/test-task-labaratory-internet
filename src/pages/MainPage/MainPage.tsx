@@ -40,7 +40,7 @@ export const MainPage = memo((props: MainPageProps) => {
             {/*<section id="faq">*/}
             {/*    <Questions/>*/}
             {/*</section>*/}
-            {/*<Description/>*/}
+            <Description/>
             <section id="form">
                 <Form/>
             </section>
