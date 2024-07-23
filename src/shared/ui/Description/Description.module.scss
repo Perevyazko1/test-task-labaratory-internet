@@ -1,11 +1,7 @@
 
 .gridSection {
-    //display: grid;
-    //grid-template-columns: repeat(2, 1fr);
-    //gap: 20px;
+    margin-bottom: 30px;
     padding: 2rem;
-    //background-color: #f9f9f9;
-    //box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: rgba(246, 248, 250, 1);
 
 
@@ -31,6 +27,8 @@
 
 .gridItem p {
     font-size: 1rem;
-    color: #666;
     margin-bottom: 1rem;
+    font-family: "Graphik Light", serif;
+    color: rgba(94, 100, 106, 1);
+
 }

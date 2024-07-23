@@ -1,4 +1,4 @@
-import {ReactNode, useState} from 'react';
+import {ReactNode, useEffect, useState} from 'react';
 import cls from "./Questions.module.scss"
 import plus from "../../images/plus.svg"
 import cross from "../../images/cross.svg"
@@ -20,8 +20,12 @@ export const Questions = (props: QuestionsProps) => {
     const [openIndex, setOpenIndex] = useState<number|null>(null);
 
     const handleToggle = (index:number) => {
+        console.log(index)
         setOpenIndex(openIndex === index ? null : index);
     };
+    useEffect(() => {
+        console.log(openIndex)
+    }, [openIndex]);
 
 
     const questions = [
@@ -58,13 +62,14 @@ export const Questions = (props: QuestionsProps) => {
 
     return (
         <div className={cls.faqContainer}>
-            <h1>Вопросы и ответы</h1>
+            <h2>Вопросы и ответы</h2>
             {questions.map((item, index) => (
                 <div key={index} className={cls.faqItem}>
                     <div className={cls.faqQuestion} onClick={() => handleToggle(index)}>
                         <span>{item.question}</span>
                         <span className={cls.faqToggle}>{openIndex === index ?
-                            <img alt={"cross"} src={cross}/> : <img alt={"plus"} src={plus}/>}
+                            <img alt={"cross"} src={cross}/> : <img alt={"plus"} src={plus}/>
+                        }
                         </span>
                     </div>
                     {openIndex === index && item.answer && (

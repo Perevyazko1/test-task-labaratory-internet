@@ -1,5 +1,5 @@
-.header{
-    font-size: 2rem;
+.header {
+    font-size: 40px;
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,6 @@
     width: 1920px;
     height: 614px;
     background-color: rgba(246, 248, 250, 1);
-
 
 
     .slickPrev, .slickNext {
@@ -59,8 +58,10 @@
 
     p {
         font-size: 1rem;
-        color: #666;
         margin-bottom: 1rem;
+        font-family: "Graphik Light", serif;
+        color: rgba(94, 100, 106, 1);
+
     }
 }
 

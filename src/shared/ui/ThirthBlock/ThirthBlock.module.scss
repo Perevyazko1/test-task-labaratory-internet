@@ -1,8 +1,6 @@
-.ThirthBlock {
-
+.header {
+    font-size: 32px;
 }
-
-/* src/components/ThirdBlock.css */
 
 .thirdBlock {
     display: flex;
@@ -25,8 +23,10 @@
 
 .textSection p {
     font-size: 1rem;
-    color: #666;
     margin-bottom: 1rem;
+    font-family: "Graphik Light", serif;
+    color: rgba(94, 100, 106, 1);
+
 }
 
 .imageSection {
@@ -43,6 +43,7 @@
     height: 448px;
     position: absolute;
 }
+
 .trackImage {
     width: 592px;
     height: 448px;
